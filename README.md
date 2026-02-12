@@ -1,16 +1,12 @@
-# caesar_cipher
+# 🛡️ Neon Caesar Cipher
 
-A new Flutter project.
+A stylish, cyberpunk-themed Flutter application that implements the classic Caesar Cipher algorithm for both Latin and Cyrillic alphabets.
 
-## Getting Started
+## 🚀 Features
+- **Algorithm:** Cyclic shift encryption/decryption.
+- **Languages:** Full support for English and Russian characters.
+- **UI/UX:** Neon glow effects, Glassmorphism, and responsive design.
+- **Tech Stack:** Dart & Flutter.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ How it works
+The app takes a string and a numeric key, then shifts each character's Unicode value while maintaining the alphabet boundaries using the modulo operator.
